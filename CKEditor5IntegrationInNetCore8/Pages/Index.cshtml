@@ -4,7 +4,48 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <h2>Create Post</h2>
+
+            <form method="post" action="/Home/Create">
+                <div class="form-group">
+                    <label for="Content">Content</label>
+                    <textarea id="editor" name="Content" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8Mpf93KmITxGoSvLl5pwMwPaWqvGRalxiN3Jj4idG8tPDHXyFQztYraDYC8WDQcp8WnU5dqGP6uVV_EWhozWW9H5yj8ve9VDXvQop-fg2w75r5PWW0lCSfe74swL5FyQouD23dPWj0sWRhPsh6hz5Ig" />
+            </form>
+
+            <!-- Load the local CKEditor 5 script -->
+            <script src="/lib/ckeditor/build/ckeditor.js"></script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    innerHeight: 400;
+                    ClassicEditor
+                        .create(document.querySelector('#editor'))
+                        .catch(error => {
+                            console.error(error);
+                        });
+                });
+            </script>
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - CKEditor Integration In AspNetCore - <a href="/Home/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js"></script>
+    <!-- Visual Studio Browser Link -->
+    <script type="text/javascript" src="/_vs/browserLink" async="async" id="__browserLink_initializationData" data-requestId="d00c9859e36e4f5fb52dae49b198ff20" data-requestMappingFromServer="false" data-connectUrl="http://localhost:61420/58a47297a55b46eeaf092a3cde78cec4/browserLink"></script>
+    <!-- End Browser Link -->
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+</body>
+</html>
+

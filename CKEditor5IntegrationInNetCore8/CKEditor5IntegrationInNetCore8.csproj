@@ -6,4 +6,91 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\lib\ckeditor\build\4b983ab8118504533cbf.wasm" />
+    <None Include="wwwroot\lib\ckeditor\build\ckeditor.js" />
+    <None Include="wwwroot\lib\ckeditor\build\ckeditor.js.map" />
+    <None Include="wwwroot\lib\ckeditor\build\README.md" />
+    <None Include="wwwroot\lib\ckeditor\build\sample\img\github.svg" />
+    <None Include="wwwroot\lib\ckeditor\build\sample\img\logo.svg" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\af.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ar.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ast.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\az.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\bg.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\bn.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\bs.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ca.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\cs.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\da.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\de-ch.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\de.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\el.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\en-au.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\en-gb.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\eo.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\es-co.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\es.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\et.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\eu.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\fa.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\fi.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\fr.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\gl.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\gu.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\he.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\hi.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\hr.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\hu.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\hy.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\id.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\it.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ja.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\jv.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\kk.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\km.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\kn.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ko.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ku.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\lt.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\lv.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ms.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\nb.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ne.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\nl.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\no.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\oc.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\pl.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\pt-br.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\pt.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ro.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ru.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\si.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\sk.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\sl.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\sq.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\sr-latn.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\sr.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\sv.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\th.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ti.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\tk.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\tr.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\tt.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ug.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\uk.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\ur.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\uz.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\vi.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\zh-cn.js" />
+    <None Include="wwwroot\lib\ckeditor\build\translations\zh.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="5.5.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>
